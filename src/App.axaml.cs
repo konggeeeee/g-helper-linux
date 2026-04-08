@@ -37,7 +37,6 @@ public class App : Application
     //startup via environment variable GHELPER_SILENT_START=1
     private static bool IsSilentStartup() => Environment.GetEnvironmentVariable("GHELPER_SILENT_START") == "1";
 
-
     // Single-instance lock that prevents duplicate tray icons
     private static FileStream? _lockFile;
 
